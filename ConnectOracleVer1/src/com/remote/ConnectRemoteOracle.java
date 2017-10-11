@@ -1,4 +1,4 @@
-package com.test;
+package com.remote;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ConnectOracle {
+public class ConnectRemoteOracle {
 	
 	public static final String DBNAME = "Utility";
 	public static final String URL = "jdbc:oracle:thin:@10.151.120.241:1521:" + DBNAME;
